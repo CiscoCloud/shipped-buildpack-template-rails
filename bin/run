@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if ! bundle check; then
-  ${0%/*}/build
-fi
-
-rails server -b 0.0.0.0
