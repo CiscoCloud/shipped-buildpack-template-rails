@@ -1,4 +1,3 @@
 #!/bin/bash
-apt-get update && apt-get install -y build-essental libsqlite3-dev
+apt-get update && apt-get install -y build-essential libsqlite3-dev
 bundle install
-bundle exec rake db:migrate
